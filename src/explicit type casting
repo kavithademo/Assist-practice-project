@@ -1,0 +1,27 @@
+package com.simplilearn.typecasting;
+
+/**
+ * This class demonstrate Explicit TypeCast Example.
+ * @author kavitha
+ */
+public class ExplicitTypeCast {
+
+	// Explicit type cast : When type are not compatible, does not happen automatically conversion
+	// Narrowing : Converts data of incompatible type, convert from higher range value to lower range value.
+	// double => float => long => int => short => byte.
+	
+	// Entry point	
+	public static void main(String[] args) {
+		
+		double accBalance = 100.4545d;   
+		
+		long bigBalance = (long) accBalance;
+		
+		int intBalance = (int) accBalance; 
+		
+		short shortBalance = (short) bigBalance; 
+		
+		byte byteBalance = (byte) accBalance;
+		
+    }
+}
